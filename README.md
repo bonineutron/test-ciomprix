@@ -54,6 +54,6 @@ Presione el botón Browse Collections para acceder a las colecciones de la base 
 
 ## Deploy on DigitalOcean
 
-El despliegue de esta APIREST se hizo en un servidor ubuntu, proporcionado por DigitalOcean, para acceder al backend en entorno de producción, acceda por medio de esta ruta [143.244.148.150](http://143.244.148.150/), en el cual podrá hacer uso de las rutas ya proporcionadas en esta documentación.
+El despliegue de esta APIREST se hizo en un servidor ubuntu, proporcionado por [DigitalOcean](https://www.digitalocean.com/), para acceder al backend en entorno de producción, acceda por medio de esta ruta [143.244.148.150](http://143.244.148.150/), en el cual podrá hacer uso de las rutas ya proporcionadas en esta documentación.
 
 No se darán las credenciales de este servicio, puesto que hay datos privados (como de facturación) que no deben ser compartidos, por seguridad del desarrollador.
