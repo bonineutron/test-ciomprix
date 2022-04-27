@@ -40,3 +40,20 @@ Si las credenciales son correctas, el endpoint responderá con un token, el cual
 IMPORTAR COLECCION DE SOLICITUDES POSTMAN:
 
 Para facilitar el testeo de estas rutas, tendrá acceso a este archivo [collection-postman](https://drive.google.com/file/d/1BJYr78AgrDsTIP5rOPqG2n9zOFLN5QYy/view?usp=sharing), el cual contiene la colección de solicitudes; GET Y POST, en los entornos de desarrollo y producción.
+
+## Learn More
+
+El backend de este test para la empresa ciomprix, se desarrolló con nodejs y la base de datos está contenida en el servicio de [Atlas](https://www.mongodb.com/es/atlas) de MongoDB, para acceder a la base de datos, debe iniciar sesión en [MongoDB](https://account.mongodb.com/account/login) con estas credenciales:
+
+```bash
+    "email": testciomprix@gmail.com
+    "password": passTest1*
+```
+
+Presione el botón Browse Collections para acceder a las colecciones de la base de datos Mongo.
+
+## Deploy on DigitalOcean
+
+El despliegue de esta APIREST se hizo en un servidor ubuntu, proporcionado por DigitalOcean, para acceder al backend en entorno de producción, acceda por medio de esta ruta [143.244.148.150](http://143.244.148.150/), en el cual podrá hacer uso de las rutas ya proporcionadas en esta documentación.
+
+No se darán las credenciales de este servicio, puesto que hay datos privados (como de facturación) que no deben ser compartidos, por seguridad del desarrollador.
